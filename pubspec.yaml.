@@ -1,0 +1,35 @@
+name: football_ai_vision
+description: Premium AI-powered football application
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  glassmorphism: ^3.0.0
+  flutter_animate: ^4.1.1
+  animate_do: ^3.0.2
+  lottie: ^2.6.0
+  get: ^4.6.5
+  easy_localization: ^3.0.2
+  google_fonts: ^6.1.0
+  flutter_svg: ^2.0.7
+  font_awesome_flutter: ^10.6.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/fonts/
+    - assets/animations/
+    - assets/translations/
+    
